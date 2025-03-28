@@ -12,8 +12,6 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
-
 }
 
 .container{
@@ -23,8 +21,8 @@ body{
     border-radius: 8px;
     box-shadow: 0 4px 8px black;
     flex-flow: column;
-    
 }
+
 h1{
     background-color: yellow;
     color: darkgreen;
@@ -33,13 +31,12 @@ h1{
 }
 
 p{
-    background-color: blue;
+    background-color: rgb(35, 135, 26);
     color: white;
     font-size: 1.1em;
     margin: 5px;
     padding: 5px;
-    border-radius: 5px;
-   
+    border-radius: 5px; 
 }
 
 .visitante{
@@ -51,7 +48,7 @@ p{
 }
 
 button{
-    background-color: #19043f;
+    background-color: #090cb5;
     color: white;
     padding: 10px;
     border: none;font-size: 1em;
@@ -59,10 +56,9 @@ button{
     cursor: pointer;
     font-size: 1em;
     background-color: 0.3s ease;
-    margin-top: 20px;
-    
+    margin-top: 20px;  
 }
 
 button:hover{
-    background-color: rgb(124, 85, 213);
+    background-color: rgb(253, 3, 3);
 }
