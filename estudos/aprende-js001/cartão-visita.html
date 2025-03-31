@@ -9,10 +9,16 @@
 <body>
     <h1>Crie aqui seu cartão de visita.</h1>
     <div class="container">
-        <div id="empresa">Empresa</div>
-        <div id="nome">Nome</div>
-        <div id="telefone">Telefone</div>
-
+        <input type="text" id="empresa" placeholder="Digite aqui nome da empresa">
+        <input type="text" id="nome" placeholder="Digite aqui seu nome">
+        <input type="text" id="telefone" placeholder="Digite aqui número do telefone">
+        <button onclick="crieCartao()">Criar cartão</button>
+        <p id="mensagem"></p>
+    </div>
+    <div id="cardFinal">
+        <p id="cardEmpresa"></p>
+        <p id="cardNome"></p>
+        <p id="cardNumero"></p>
     </div>
 
     <script src="js-arquivo.js"></script>
