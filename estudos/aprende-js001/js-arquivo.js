@@ -23,6 +23,7 @@ function crieCartao(){
     empresa.value = ""
     nome.value = ""
     telefone.value = ""
+   
     
 
     
