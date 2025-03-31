@@ -18,7 +18,7 @@ body{
 }
 
 h1{
-    color: rgb(135, 92, 12);
+    color: rgb(86, 58, 7);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1,5em;
     text-align: center;
@@ -95,9 +95,9 @@ button:hover{
     align-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(141, 92, 79);
+    background-color: rgb(86, 58, 7);
     border-radius: 10px;
-    box-shadow: 1px 1px 5px rgba(32, 30, 30, 0.681);
+    box-shadow: 1px 1px 5px rgba(32, 30, 30, 0.984);
     font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -109,6 +109,7 @@ button:hover{
 #cardNome{
     padding: 25px;
     font-size: 2em;
+}
     
 #cardNumero{
     padding-bottom: 15px;
