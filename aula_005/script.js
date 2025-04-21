@@ -38,6 +38,7 @@ function renderizarTarefas() {
         let botaoRemover = document.createElement("button")
         botaoRemover.className = "remover"
         botaoRemover.textContent = "Remover"
+        // nesta linha criamos um Arrow Function uma função remover de forma reduzida. 
         botaoRemover.onclick = () => removerTarefa(i)
 
         let botaoEditar = document.createElement("button")
@@ -51,7 +52,7 @@ function renderizarTarefas() {
 
     }
 }
-
+//esta função é chamada na linha 42
 function removerTarefa(i) {
     tarefas.splice(i, 1)
     renderizarTarefas()
